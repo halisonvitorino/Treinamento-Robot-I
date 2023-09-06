@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230905 11:44:28.095" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\halison.r.vitorino\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20230905 12:26:12.955" endtime="20230905 12:26:35.674"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20230905 12:31:27.763" endtime="20230905 12:31:38.421"/>
+</kw>
+<kw name="input">
+<msg timestamp="20230905 14:35:41.647" level="FAIL">No keyword with name 'input' found. Did you mean:
+    RPA.HTTP.PUT
+    RPA.Browser.Selenium.Input Text</msg>
+<status status="FAIL" starttime="20230905 14:35:41.645" endtime="20230905 14:35:41.648"/>
+</kw>
+<kw name="http library">
+<msg timestamp="20230905 15:05:43.692" level="FAIL">No keyword with name 'http library' found.</msg>
+<status status="FAIL" starttime="20230905 15:05:43.692" endtime="20230905 15:05:43.692"/>
+</kw>
+<kw name="Http Get" library="RPA.HTTP">
+<doc>A helper method for ``Get Request`` that will create a session, perform GET
+request, and store the target file, if set by the ``target_file`` parameter.</doc>
+<msg timestamp="20230905 15:06:25.639" level="FAIL">Keyword 'RPA.HTTP.Http Get' expected 1 to 6 non-named arguments, got 0.</msg>
+<status status="FAIL" starttime="20230905 15:06:25.631" endtime="20230905 15:06:25.639"/>
+</kw>
+<status status="PASS" starttime="20230905 11:44:28.412" endtime="20230905 15:37:13.073"/>
+</kw>
+<status status="PASS" starttime="20230905 11:44:28.410" endtime="20230905 15:37:13.083"/>
+</test>
+<status status="PASS" starttime="20230905 11:44:28.108" endtime="20230905 15:37:13.118"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
